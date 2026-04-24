@@ -1,0 +1,36 @@
+# === 安全：永远不提交包含真实 Keys 的文件 ===
+*.json
+!configs/*.example
+.env
+.env.*
+!.env.example
+
+# === OpenClaw 配置文件（包含真实 API Keys）===
+openclaw.json
+models.json
+openclaw.json.bak
+models.json.bak
+
+# === 工作区数据 ===
+memory/
+memory-*/
+.learnings/
+*.bak
+*.tmp
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Node ===
+node_modules/
+npm-debug.log
+__pycache__/
+*.pyc
