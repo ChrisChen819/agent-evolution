@@ -9,7 +9,7 @@
 set -e
 
 #====== 配置区 ======
-GLADOS_SUBSCRIBE_URL="https://update.glados-config.com/clash/229372/f05069c/142492/glados.yaml"
+GLADOS_SUBSCRIBE_URL="你的GLaDOS_Clash订阅链接"
 TAILSCALE_AUTH_KEY=""  # 如需自动加入，填入 Tailscale auth key
 SSH_USER="chris"
 SSH_PORT="22"

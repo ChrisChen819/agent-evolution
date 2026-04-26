@@ -71,7 +71,7 @@ gzip -d clash-linux-amd64-v1.10.0.gz
 chmod +x clash-linux-amd64-v1.10.0
 
 # 下载 GLaDOS 配置
-wget -O ~/glados.yaml https://update.glados-config.com/clash/229372/f05069c/142492/glados.yaml
+wget -O ~/glados.yaml 你的GLaDOS_Clash订阅链接
 ```
 
 ### Step 4: 配置 Clash 开机自启
